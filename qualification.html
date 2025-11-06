@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Qualification — Shamshun Nahar Harun Polytechnic Institute</title>
+<!-- Icons & Fonts -->
+
+
+
+<link href="./asset/Images/logo.png" rel="shortcut icon" type="image/x-icon"/>
+<!-- Global Styles -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/><link href="/asset/css/style.css" rel="stylesheet"/>
+<!-- Page Specific -->
+<style>
+      /* ---------- Hero BG ---------- */
+      .subpage-hero {
+        background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+          url("/asset/Images/BG/qual_bg.jpg") center/cover no-repeat;
+        padding: 10rem 0 5rem;
+        text-align: left;
+      }
+      .subpage-hero h1 span {
+        color: var(--brand);
+      }
+      .subpage-hero .lead {
+        color: #e9eef6;
+        max-width: 900px;
+        font-size: 1.7rem;
+        margin-top: 0.8rem;
+      }
+
+      /* ---------- Overview with image ---------- */
+      .qual-overview {
+        background: var(--bg);
+        padding: 6rem 0;
+      }
+      .qual-overview .container {
+        width: min(1000px, 92%);
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .qov-text {
+        flex: 1 1 420px;
+      }
+      .qov-text h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .qov-text p {
+        font-size: 1.6rem;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .qov-text .checklist {
+        list-style: none;
+        margin-top: 1rem;
+        display: grid;
+        gap: 0.8rem;
+        padding: 0;
+      }
+      .qov-text .checklist li {
+        background: var(--bg-2);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 0.8rem;
+        padding: 1rem 1.2rem;
+      }
+      .qov-text .checklist strong {
+        color: var(--brand);
+      }
+      .qov-photo {
+        flex: 1 1 420px;
+      }
+      .qov-photo img {
+        width: 100%;
+        border-radius: 1.6rem;
+        box-shadow: var(--shadow);
+        object-fit: cover;
+        aspect-ratio: 16/10;
+      }
+
+      /* ---------- Tables / Cards ---------- */
+      .qual-section {
+        background: var(--bg-2);
+        padding: 6rem 0;
+      }
+      .qual-section .container {
+        width: min(1000px, 92%);
+      }
+      .tbl {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1.6rem;
+        background: var(--bg);
+        border-radius: 1.2rem;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+      }
+      .tbl thead {
+        background: var(--brand);
+        color: #0b2a46;
+        font-weight: 700;
+      }
+      .tbl th,
+      .tbl td {
+        padding: 1.2rem 1.4rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+      }
+      .tbl tbody tr:hover {
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.6rem;
+        margin-top: 1.6rem;
+      }
+      .card {
+        background: var(--bg);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 1.2rem;
+        padding: 1.6rem;
+        box-shadow: var(--shadow);
+      }
+      .card h3 {
+        font-size: 1.9rem;
+        color: var(--brand);
+        margin-bottom: 0.6rem;
+      }
+      .card ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .card li {
+        margin: 0.4rem 0;
+        color: #d2dae6;
+      }
+
+      @media (max-width: 900px) {
+        .cards {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 560px) {
+        .cards {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ---------- Note & CTA ---------- */
+      .note {
+        font-size: 1.5rem;
+        color: #cfd6e3;
+        text-align: center;
+        margin-top: 1.2rem;
+      }
+      .cta-wrap {
+        text-align: center;
+        margin-top: 2.4rem;
+      }
+    </style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- Header -->
+<header class="header" id="header">
+<div class="container nav-wrap">
+<a aria-label="SNHPI Home" class="logo" href="/#home">SNHPI</a>
+<button aria-label="Toggle navigation" class="nav-toggle" id="nav-toggle">
+<i class="bx bx-menu"></i>
+</button>
+<nav aria-label="Main" class="nav" id="nav">
+<button aria-label="Close menu" class="nav-close" id="nav-close">
+<i class="bx bx-x"></i>
+</button>
+<ul class="nav-list"><li><a class="nav-link" href="/#home">HOME</a></li><li><a class="nav-link" href="/#about">ABOUT</a></li><li><a class="nav-link" href="/#services">COURSE</a></li><li><a class="nav-link" href="/#gallery">GALLERY</a></li><li><a class="nav-link" href="/#testimonials">BLOG</a></li><li class="dropdown"><button aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" type="button">ADMISSION<i aria-hidden="true" class="bx bx-chevron-down" style="font-size:1.6rem;"></i></button><ul aria-label="Admission submenu" class="dropdown-menu" role="menu"><li role="none"><a class="dropdown-item" href="/fees.html" role="menuitem">Fees</a></li><li role="none"><a class="dropdown-item" href="/qualification.html" role="menuitem">Qualification</a></li></ul></li><li><a class="nav-link" href="/contact.html">CONTACT</a></li><li><a class="nav-link" href="/apply.html">APPLY</a></li></ul>
+</nav>
+</div>
+</header>
+<!-- Hero -->
+<section aria-label="Admission Qualification" class="subpage-hero" id="main">
+<div class="container">
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="/">Home</a> /</li>
+<li><a href="/#services">Admission</a> /</li>
+<li aria-current="page">Qualification</li>
+</ol>
+</nav>
+<h1>Admission <span>Qualification</span></h1>
+<p class="lead">
+          ভর্তি যোগ্যতা, ডকুমেন্ট চেকলিস্ট, সময়সীমা এবং সমতুল্যতার নির্দেশনা—সব
+          এক জায়গায়।
+        </p>
+<div class="hero-cta" style="margin-top: 1.2rem">
+<a class="btn btn-lg btn-primary glow-btn" href="/#contact"><i class="bx bx-right-arrow-alt"></i> Apply Now</a>
+<a class="btn btn-ghost" href="#eligibility"><i class="bx bx-file"></i> See Eligibility</a>
+</div>
+</div>
+</section>
+<!-- Overview -->
+<section class="qual-overview">
+<div class="container">
+<div class="qov-text">
+<h2>Admission <span>Overview</span></h2>
+<p>
+            SNHPI-তে ডিপ্লোমা প্রোগ্রামগুলোতে ভর্তি হতে ন্যূনতম একাডেমিক
+            যোগ্যতা, নির্দিষ্ট ডকুমেন্ট এবং নির্ধারিত সময়সীমা অনুসরণ করতে হয়।
+            নিচে সংক্ষেপে দেওয়া হলো—
+          </p>
+<ul class="checklist">
+<li>
+<strong>Academic:</strong> SSC/Equivalent পাস, নির্ধারিত
+              GPA/বিষয়ভিত্তিক শর্ত।
+            </li>
+<li>
+<strong>Age &amp; Attempts:</strong> BTEB গাইডলাইন অনুযায়ী (প্রয়োজনে
+              বিশেষ নির্দেশ প্রযোজ্য)।
+            </li>
+<li>
+<strong>Documents:</strong> মার্কশিট, সনদ, ছবি, NID/Birth,
+              ট্রান্সফার/মাইগ্রেশন (যদি থাকে)।
+            </li>
+</ul>
+</div>
+<div class="qov-photo">
+<img alt="Students getting admission guidance at SNHPI" src="/asset/Images/BG/certificate.jpg"/>
+</div>
+</div>
+</section>
+<!-- Eligibility -->
+<section class="qual-section" id="eligibility">
+<div class="container">
+<h2 class="heading">Minimum <span>Eligibility</span></h2>
+<div class="table-wrap">
+<table class="tbl">
+<thead>
+<tr>
+<th>Program</th>
+<th>Required Exam</th>
+<th>Group/Subject</th>
+<th>GPA (Approx.)</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diploma in Engineering (All Tech)</td>
+<td>SSC / Equivalent</td>
+<td>Science / Vocational (preferred)</td>
+<td>≥ 2.50</td>
+<td>Math &amp; Science-এ বেসিক ধারণা প্রত্যাশিত</td>
+</tr>
+<tr>
+<td>Diploma in Textile</td>
+<td>SSC / Equivalent</td>
+<td>Science / Vocational</td>
+<td>≥ 2.50</td>
+<td>Physics/Chemistry জ্ঞান উপকারী</td>
+</tr>
+<tr>
+<td>Diploma in Computer</td>
+<td>SSC / Equivalent</td>
+<td>Science / Any (Math preferred)</td>
+<td>≥ 2.50</td>
+<td>Basic ICT/Math থাকলে সুবিধা</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="note">
+<i class="bx bx-info-circle"></i> উপরোক্ত মানগুলি ইনস্টিটিউট-স্তরের
+          মিনিমাম গাইডলাইন—BTEB/বোর্ড নির্দেশনা অনুযায়ী বদলাতে পারে। অফিসিয়াল
+          নোটিস ফলো করবেন।
+        </p>
+</div>
+</section>
+<!-- Documents & Equivalency -->
+<section class="qual-section" id="documents">
+<div class="container">
+<h2 class="heading">Documents <span>&amp; Process</span></h2>
+<div class="cards">
+<article class="card">
+<h3><i class="bx bx-file-find"></i> Required Documents</h3>
+<ul>
+<li>
+                SSC/Equivalent Original Marksheet &amp; Provisional Certificate
+              </li>
+<li>3–4 কপি পাসপোর্ট সাইজ ছবি</li>
+<li>Birth Certificate / NID (student or guardian)</li>
+<li>Character Certificate (School/Institute)</li>
+<li>TC/Migration (যদি ইনস্টিটিউট পরিবর্তন করে থাকেন)</li>
+</ul>
+</article>
+<article class="card">
+<h3><i class="bx bx-git-merge"></i> Equivalency (If Applicable)</h3>
+<ul>
+<li>
+                O-Level/Other Boards → শিক্ষা বোর্ড/BTEB সমতুল্যতা লাগতে পারে
+              </li>
+<li>
+                Vocational থেকে Engineering-এ আসলে সংশ্লিষ্ট ট্রেড বিবেচ্য
+              </li>
+<li>Foreign Certificate হলে অনুবাদ ও attestation প্রয়োজন</li>
+</ul>
+</article>
+<article class="card">
+<h3><i class="bx bx-time-five"></i> Timeline</h3>
+<ul>
+<li>Application Window: অফিসিয়াল নোটিস অনুযায়ী</li>
+<li>Document Verification: আবেদন চলাকালীন</li>
+<li>Merit/Waiting List: নোটিস বোর্ড/ওয়েবসাইট</li>
+<li>Admission &amp; Fee Submission: নির্ধারিত ডেডলাইন</li>
+</ul>
+</article>
+</div>
+<div class="cta-wrap">
+<a class="btn btn-lg btn-primary glow-btn" href="/contact.html"><i class="bx bx-phone"></i> Need Help? Contact Desk</a>
+</div>
+</div>
+</section>
+<!-- Notes -->
+<section class="qual-section" style="background: var(--bg)">
+<div class="container">
+<h2 class="heading">Important <span>Notes</span></h2>
+<div class="cards">
+<article class="card">
+<h3><i class="bx bx-shield-quarter"></i> Reservation/Quota</h3>
+<ul>
+<li>
+                সরকারি নির্দেশনা অনুযায়ী কোটা/রিজার্ভেশন প্রযোজ্য হলে তা অনুসরণ
+                করা হবে
+              </li>
+<li>প্রমাণপত্র জমা সাপেক্ষে সুবিধা প্রযোজ্য</li>
+</ul>
+</article>
+<article class="card">
+<h3><i class="bx bx-health"></i> Medical Fitness</h3>
+<ul>
+<li>ল্যাব/ওয়ার্কশপ কোর্সের ক্ষেত্রে মৌলিক ফিটনেস প্রয়োজন</li>
+<li>প্রয়োজনে মেডিকেল সার্টিফিকেট চাওয়া হতে পারে</li>
+</ul>
+</article>
+<article class="card">
+<h3><i class="bx bx-receipt"></i> Fees &amp; Refund</h3>
+<ul>
+<li>ফি-নীতি ও রিফান্ড শর্ত—ইনস্টিটিউট নীতিমালা অনুযায়ী</li>
+<li>বিস্তারিত দেখুন: <a href="/admission_fees.html">Fees</a></li>
+</ul>
+</article>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="site-footer">
+<div class="footer-container">
+<div class="footer-col">
+<h3>Education Links</h3>
+<ul>
+<li><a href="https://bteb.gov.bd/" target="_blank">BTEB</a></li>
+<li>
+<a href="https://techedu.gov.bd/" target="_blank">Technical Education</a>
+</li>
+<li>
+<a href="http://www.educationboard.gov.bd/" target="_blank">Educational Board</a>
+</li>
+<li>
+<a href="https://shed.gov.bd/" target="_blank">Ministry of Education</a>
+</li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>E-books Links</h3>
+<ul>
+<li>
+<a href="https://bookboon.com/" target="_blank">Book Boon</a>
+</li>
+<li>
+<a href="http://www.freeengineeringbooks.com/" target="_blank">Free Engineering Books</a>
+</li>
+<li>
+<a href="https://books.google.co.in/" target="_blank">Google Books</a>
+</li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>Jobs Links</h3>
+<ul>
+<li>
+<a href="https://www.bdjobs.com/" target="_blank">BD Jobs</a>
+</li>
+<li>
+<a href="https://bdgovtjob.net/" target="_blank">BD Govt Jobs</a>
+</li>
+<li>
+<a href="https://www.alljobsbd.com/" target="_blank">All Jobs BD</a>
+</li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>Contact Address</h3>
+<ul class="contact-info">
+<li>
+<i class="bx bx-map"></i> 811/A.H.R Complex, Baddarhat,<br/>Chattogram
+            </li>
+<li><i class="bx bx-phone"></i> 01885212097, 01885-212098</li>
+<li><i class="bx bxl-whatsapp"></i> Whatsapp: +880-1531-318273</li>
+<li><i class="bx bx-envelope"></i> ctg.snhpi@gmail.com</li>
+<li><i class="bx bx-id-card"></i> EIIN: 138402</li>
+<li><i class="bx bx-home-alt"></i> College Code: 70235</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © 2025 All Rights Reserved</p>
+<p>Developed By: <strong>AFRIDI</strong></p>
+</div>
+<div class="footer-iconTop">
+<a aria-label="Back to top" href="#main"><i class="bx bx-up-arrow-alt"></i></a>
+</div>
+</footer>
+<!-- JS -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="/asset/js/script.js"></script>
+</body>
+</html>

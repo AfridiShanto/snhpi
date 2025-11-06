@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Request an Appointment — Shamshun Nahar Harun Polytechnic Institute</title>
+<!-- Icons & Fonts -->
+
+
+
+<link href="./asset/Images/logo.png" rel="shortcut icon" type="image/x-icon"/>
+<!-- Global theme styles (already in your project) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/><link href="/asset/css/style.css" rel="stylesheet"/>
+<!-- Page specific styles -->
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- Header (same as main) -->
+<header class="header" id="header">
+<div class="container nav-wrap">
+<a aria-label="SNHPI Home" class="logo" href="/#home">SNHPI</a>
+<button aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" id="nav-toggle">
+<i aria-hidden="true" class="bx bx-menu"></i>
+</button>
+<nav aria-label="Main" class="nav" id="nav">
+<button aria-label="Close menu" class="nav-close" id="nav-close">
+<i aria-hidden="true" class="bx bx-x"></i>
+</button>
+<ul class="nav-list"><li><a class="nav-link" href="/#home">HOME</a></li><li><a class="nav-link" href="/#about">ABOUT</a></li><li><a class="nav-link" href="/#services">COURSE</a></li><li><a class="nav-link" href="/#gallery">GALLERY</a></li><li><a class="nav-link" href="/#testimonials">BLOG</a></li><li class="dropdown"><button aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link" type="button">ADMISSION<i aria-hidden="true" class="bx bx-chevron-down" style="font-size:1.6rem;"></i></button><ul aria-label="Admission submenu" class="dropdown-menu" role="menu"><li role="none"><a class="dropdown-item" href="/fees.html" role="menuitem">Fees</a></li><li role="none"><a class="dropdown-item" href="/qualification.html" role="menuitem">Qualification</a></li></ul></li><li><a class="nav-link" href="/contact.html">CONTACT</a></li><li><a class="nav-link" href="/apply.html">APPLY</a></li></ul>
+</nav>
+</div>
+</header>
+<!-- Hero -->
+<section class="subpage-hero" id="main" style="--hero-bg: url('/asset/Images/BG/banner.png')">
+<div class="container">
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="/">Home</a> /</li>
+<li><a href="/principal_message.html">Principal Message</a> /</li>
+<li aria-current="page">Request Appointment</li>
+</ol>
+</nav>
+<h1>Request an <span>Appointment</span></h1>
+<p class="lead">প্রিন্সিপাল স্যারের সাথে সাক্ষাতের জন্য নিচের ফর্মটি পূরণ করুন। আমরা শীঘ্রই কনফার্ম করব।</p>
+</div>
+</section>
+<!-- Appointment Form -->
+<section aria-labelledby="appt-heading" class="appointment">
+<div class="container narrow">
+<h2 class="heading" id="appt-heading">Appointment <span>Form</span></h2>
+<form autocomplete="off" class="appt-form" id="appointment-form" novalidate="">
+<!-- honeypot (spam trap) -->
+<input aria-hidden="true" autocomplete="off" class="hp" id="website" name="website" tabindex="-1" type="text"/>
+<div class="grid">
+<div class="field">
+<label for="name">Full Name <span aria-hidden="true">*</span></label>
+<input id="name" name="name" placeholder="Enter your full name" required="" type="text"/>
+</div>
+<div class="field">
+<label for="email">Email Address <span aria-hidden="true">*</span></label>
+<input id="email" name="email" placeholder="your@email.com" required="" type="email"/>
+</div>
+<div class="field">
+<label for="mobile">Mobile (optional)</label>
+<input id="mobile" name="mobile" pattern="^(\+?\d[\d\s\-]{7,})?$" placeholder="01XXXXXXXXX" type="tel"/>
+</div>
+<div class="field">
+<label for="department">Department <span aria-hidden="true">*</span></label>
+<select id="department" name="department" required="">
+<option value="">Select Department</option>
+<option>Electrical</option>
+<option>Computer</option>
+<option>Civil</option>
+<option>Mechanical</option>
+<option>Automobile</option>
+<option>Textile</option>
+</select>
+</div>
+<div class="field">
+<label for="date">Preferred Date <span aria-hidden="true">*</span></label>
+<input id="date" name="date" required="" type="date"/>
+</div>
+<div class="field">
+<label for="time">Preferred Time (optional)</label>
+<input id="time" name="time" type="time"/>
+</div>
+<div class="field field-full">
+<label for="message">Message (Optional)</label>
+<textarea id="message" name="message" placeholder="Write your message..." rows="5"></textarea>
+</div>
+</div>
+<div class="actions">
+<button class="btn btn-lg btn-primary glow-btn" type="submit">
+<i aria-hidden="true" class="bx bx-send"></i> Submit Request
+          </button>
+<div aria-live="polite" class="status" id="appt-status" role="status"></div>
+</div>
+</form>
+</div>
+</section>
+<!-- Footer (minimal) -->
+<footer class="site-footer">
+<div class="footer-container">
+<div class="footer-col">
+<h3>Contact Address</h3>
+<ul class="contact-info">
+<li><i class="bx bx-map"></i> 811/A.H.R Complex, Baddarhat, Chattogram</li>
+<li><i class="bx bx-phone"></i> 01885212097</li>
+<li><i class="bx bx-envelope"></i> ctg.snhpi@gmail.com</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2025 All Rights Reserved</p>
+<p>Developed By: <strong>AFRIDI</strong></p>
+</div>
+<div class="footer-iconTop">
+<a aria-label="Back to top" href="#main"><i class="bx bx-up-arrow-alt"></i></a>
+</div>
+</footer>
+<!-- Vendor (optional) -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- Your shared app js (nav, reveal, etc.) -->
+<script src="/asset/js/script.js"></script>
+<!-- Page JS -->
+</body>
+</html>
